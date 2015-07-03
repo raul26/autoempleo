@@ -1,0 +1,76 @@
+@font-face{
+  font-family: "american";
+  src: url("fonts/american-typewriter.woff") format("woff");
+}
+@font-face{
+  font-family: "american-bold";
+  src: url("fonts/american_typewriter_bold_bt.woff") format("woff");
+}
+@font-face{
+  font-family: "american-condensed";
+  src: url("fonts/american-typewriter-condensed-bold.woff") format("woff");
+}
+body{
+  background: url("images/Fondo.png") no-repeat top;
+}
+#head{
+  color: #CC3366;
+  font-family: "american-condensed";
+  font-size: 70px;
+}
+.menu{
+  display:block;
+}
+
+.menu li{
+  display: inline-block;
+  position: relative;
+  z-index:100;
+}
+.txt-men{
+  width: 20%;
+}
+.menu li a {
+  font-weight:600;
+  text-decoration:none;
+  padding:11px;
+  display:block;
+  color:#006699;
+  font-family: "american-bold";
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.st-clr{
+  width: 14%;
+  font-size: 16px;
+}
+.st-clr:hover{
+  color:#006699;
+  background:#9CA3DA;
+}
+
+.menu ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 43px;
+  left: 0px;
+  background: #f4f6f0;
+}
+
+/* display second level menu on hover */
+.menu li:hover > ul{ display: block;}
+
+.menu ul li {
+  display:block;
+  float: none;
+  background:none;
+  margin: 0;
+  padding: 10%;
+  font-family: "american-regular";
+}
