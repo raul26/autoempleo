@@ -51,7 +51,6 @@ body{
   color:#006699;
   background:#9CA3DA;
 }
-
 .menu ul {
   display: none;
   margin: 0;
@@ -73,4 +72,15 @@ body{
   margin: 0;
   padding: 10%;
   font-family: "american-regular";
+}
+.bigger{
+  margin-top: 13% !important;
+}
+.texto{
+  font-family: 'american';
+  color: #006699;
+  font-size: 20px;
+}
+#sec-int{
+  margin-top: 14%;
 }
