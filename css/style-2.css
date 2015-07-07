@@ -1,8 +1,18 @@
-#subhead{
-  padding-bottom: 2%;
-}
 #linea-grande{
   width:228px;
   margin-left: 34%;
   margin-top: -70px;
+}
+.txt-men{
+  width: 100%;
+}
+.st-clr{
+  width: 20%;
+  text-align: center;
+}
+#index{
+  margin-top: 4%;
+}
+#index p{
+  margin-top: 4%;
 }
