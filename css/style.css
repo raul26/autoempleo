@@ -12,6 +12,7 @@
 }
 body{
   background: url("images/Fondo.png") no-repeat top;
+  font-size: 0px;
 }
 #subhead {
   color: #CC3366;
@@ -23,8 +24,12 @@ body{
   font-family: "american-condensed";
   font-size: 70px;
 }
+nav{
+  padding: 0;
+}
 .menu{
   display:block;
+  padding: 0;
 }
 
 .menu li{
