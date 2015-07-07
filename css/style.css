@@ -13,6 +13,11 @@
 body{
   background: url("images/Fondo.png") no-repeat top;
 }
+#subhead {
+  color: #CC3366;
+  font-family: "american-condensed";
+  font-size: 42px;
+}
 #head{
   color: #CC3366;
   font-family: "american-condensed";
