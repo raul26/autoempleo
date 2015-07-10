@@ -61,6 +61,11 @@ nav{
   color:#006699;
   background:#9CA3DA;
 }
+.slct-opt{
+  color:#006699;
+  background:#9CA3DA;
+  border-bottom: 4px solid #CC3366;
+}
 .menu ul {
   display: none;
   margin: 0;
