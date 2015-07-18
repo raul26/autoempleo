@@ -1,11 +1,13 @@
 $(document).ready(function(){
-
-	 $(".content").hide();
-  $("#main-content").children().first().show();
- 
-	$(".st-clr2").on("click", function(){
-   
-		
-		    
-	
+  $('.contenido').hide();
+  $('#index').show();
+  $('.st-clr').on('click', function(evt){
+    $('.st-clr').removeClass('slct-opt');
+    $('#linea-grande').css('visibility','hidden');
+    $(this).addClass('slct-opt');
+    evt.preventDefault();
+    $('.contenido').hide();
+    var id = '#'+ $(this).data('opt');
+    $(id).show();
+  })
 });

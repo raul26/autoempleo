@@ -1,0 +1,26 @@
+#linea-grande{
+  width:228px;
+  margin-left: 40%;
+  margin-top: -70px;
+}
+.txt-men{
+  width: 100%;
+}
+.st-clr{
+  width: 20%;
+  text-align: center;
+}
+#index{
+  margin-top: 4%;
+}
+#index p{
+  margin-top: 4%;
+}
+#uno, #dos, #tres, #cuatro, #cinco{
+  margin-top: 3%
+}
+.st-clr2{
+  width: 49%;
+  
+}
+
