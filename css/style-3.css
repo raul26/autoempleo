@@ -1,6 +1,6 @@
 #linea-grande{
-  width:228px;
-  margin-left: 41%;
+  width: 110px;
+  margin-left: 46%;
   margin-top: -70px;
 }
 .txt-men{
@@ -18,7 +18,4 @@
 }
 #cero, #uno, #dos, #tres, #cuatro, #cinco{
   margin-top: 3%
-}
-#subtitle{
-  color: #CC3366;
 }

@@ -77,6 +77,10 @@ nav{
   background: #f4f6f0;
 }
 
+#subtitle{
+  color: #CC3366;
+  text-align: center;
+}
 /* display second level menu on hover */
 .menu li:hover > ul{ display: block;}
 
@@ -101,4 +105,9 @@ nav{
 }
 .red{
   color: #CC3366;
+}
+@media (max-width:768px) {
+  body{
+    width:768px;
+  }
 }
