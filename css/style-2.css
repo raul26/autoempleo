@@ -22,3 +22,8 @@
 #subtitle{
   color: #CC3366;
 }
+@media (max-width: 1100px){
+  #linea-grande{
+    margin-left: 38%;
+  }
+}
