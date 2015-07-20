@@ -98,13 +98,38 @@ nav{
 .texto{
   font-family: 'american';
   color: #006699;
-  font-size: 20px;
+  font-size: 24px;
 }
 #sec-int{
   margin-top: 14%;
 }
 .red{
   color: #CC3366;
+}
+#inicio{
+  margin-left: 1%;
+}
+u{
+  text-decoration: none;
+  background-color: #f4f600;
+}
+.recuadros{
+  color: #CC3366;
+  font-size: 12px;
+  margin-top: 7%;
+}
+.recuadros img, .recuadros p{
+  position: absolute;
+}
+.rectangulo{
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border-color: #CC3366;
+  color: #CC3366;
+  font-size: 18px;
+  border: 2px solid;
+  margin-top: 3%;
 }
 @media (max-width:768px) {
   body{

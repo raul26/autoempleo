@@ -22,8 +22,24 @@
 #subtitle{
   color: #CC3366;
 }
+#cero{
+  margin-right: 16%;
+}
+.recuadros p{
+  width: 77%;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+#uno .recuadros p{
+  margin-top: 2%;
+}
 @media (max-width: 1100px){
   #linea-grande{
     margin-left: 38%;
+  }
+}
+@media (max-width: 900px){
+  #inicio{
+    margin-top: 10%;
   }
 }
