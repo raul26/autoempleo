@@ -117,9 +117,16 @@ u{
   color: #CC3366;
   font-size: 12px;
   margin-top: 7%;
+  margin-bottom: 25%;
 }
 .recuadros img, .recuadros p{
   position: absolute;
+}
+.recuadros p{
+  width: 77%;
+  margin-left: 10%;
+  margin-top: 6%;
+  margin-bottom: 25%;
 }
 .rectangulo{
   -webkit-border-radius: 30px;

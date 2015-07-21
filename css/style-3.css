@@ -19,3 +19,6 @@
 #cero, #uno, #dos, #tres, #cuatro, #cinco{
   margin-top: 3%
 }
+#cero{
+  margin-right: 16%;
+}

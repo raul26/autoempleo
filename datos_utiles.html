@@ -60,7 +60,7 @@
         </a>
       </div>
       <div class="col-xs-6 col-md-6">
-        <img src='css/images/H5Imagen.png' class='col-xs-12 col-md-12'>
+        <img src='css/images/H5Imagen.png' class='col-xs-12 col-md-8'>
       </div>
     </div>
     <div id="dos" class='contenido texto col-xs-12 col-md-12'>
@@ -77,7 +77,7 @@
         </a>
       </div>
       <div class="col-xs-6 col-md-6">
-        <img src='css/images/H6Imagen.png' class='col-xs-12 col-md-8'>
+        <img src='css/images/H6Imagen.png' class='col-xs-12 col-md-8 col-md-offset-2'>
       </div>
     </div>
     <div id="tres" class='contenido texto col-xs-12 col-md-12'>
@@ -150,18 +150,43 @@
     </div>
     <a href='index.html'><img id='inicio' src='css/images/Inicio.png' class='col-md-1 col-xs-1'></a>
   </section>
-
-  <!--modal-->
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="mod-cont modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="mod-cont modal-content">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <div class="modal-body col-md-12 col-xs-12">
+        <div class="col-md-4 col-xs-4">
+          <img src='css/images/H10block.png'class='img-back col-md-12 col-xs-12'>
+          <p class='tp texto-modal col-md-12 col-xs-12'>MICRO</p>
+          <p class='texto-modal col-md-12 col-xs-12'>
+            Se considera micro cuando cuenta con hasta 10
+            personas empleadas y ventas máximas de 4 millones de pesos al año.
+          </p>
         </div>
+        <div class="col-md-4 col-xs-4">
+          <img src='css/images/H10block.png'class='img-back col-md-12 col-xs-12'>
+          <p class='tp texto-modal col-md-12 col-xs-12'>PEQUEÑA</p>
+          <p class='texto-modal col-md-12 col-xs-12'>
+            Se considera pequeña cuando cuenta con hasta 50 personas empleadas y
+            ventas máximas de 100 millones de pesos al año.
+          </p>
+        </div>
+        <div class="col-md-4 col-xs-4">
+          <img src='css/images/H10block.png'class='img-back col-md-12 col-xs-12'>
+          <p class='tp texto-modal col-md-12 col-xs-12'>MEDIANA</p>
+          <p class='texto-modal col-md-12 col-xs-12'>
+            Se considera mediana cuando cuenta con hasta 250 personas empleadas y
+            ventas máximas de 250 millones de pesos al año.
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
-  <!--fin modal-->
+</div>
 </body>
 </html>

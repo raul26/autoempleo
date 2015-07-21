@@ -25,13 +25,23 @@
 #cero{
   margin-right: 16%;
 }
-.recuadros p{
-  width: 77%;
-  margin-left: 10%;
-  margin-top: 6%;
-}
 #uno .recuadros p{
   margin-top: 2%;
+}
+.mod-cont{
+  background-color: #CC3366;
+}
+.img-back{
+  position: absolute;
+}
+.texto-modal{
+  font-family: 'american';
+  color: #006699;
+  font-size: 19px;
+  text-align: center;
+}
+.tp{
+  margin-top: 10%;
 }
 @media (max-width: 1100px){
   #linea-grande{
