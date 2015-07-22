@@ -43,6 +43,9 @@
 .tp{
   margin-top: 10%;
 }
+.mod-cont{
+  background-color: #cc4a5f;
+}
 @media (max-width: 1100px){
   #linea-grande{
     margin-left: 38%;

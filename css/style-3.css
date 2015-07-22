@@ -22,3 +22,57 @@
 #cero{
   margin-right: 16%;
 }
+#sp{
+  display: none;
+}
+.nmb{
+  font-size: 24px;
+}
+.pos{
+  margin-top: 10%;
+}
+#cont-1{
+  font-size: 20px;
+  color: #fff;
+  background-color: #0060ad;
+  font-family: 'american';
+}
+#cont-2{
+  font-size: 20px;
+  color: #fff;
+  background-color: #CC3366;
+  font-family: 'american';
+}
+.cont-3{
+  font-size: 20px;
+  background-color: #fff;
+  font-family: 'american';
+}
+.tit{
+  text-align: center;
+  color: #0060ad;
+}
+.tres-cont-1{
+  background-color: #CC3366;
+  -webkit-border-bottom-left-radius: 40px;
+  -moz-border-radius-bottomleft: 40px;
+  border-bottom-left-radius: 40px
+}
+.tres-cont-1 a {
+  color: #fff;
+}
+.tres-cont-2{
+  color: #fff;
+  background-color: #0060ad;
+  -webkit-border-bottom-right-radius: 40px;
+  -moz-border-radius-bottomright: 40px;
+  border-bottom-right-radius: 40px;
+}
+#op1{
+  margin-bottom: 12.5%;
+}
+@media (max-width: 800px){
+  #sp{
+    display:block;
+  }
+}
