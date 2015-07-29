@@ -14,6 +14,12 @@ body{
   background: url("images/Fondo.png") no-repeat top;
   font-size: 0px;
 }
+#cero, #uno, #dos, #tres, #cuatro, #cinco{
+  margin-top: 3%
+}
+#cero{
+  margin-right: 16%;
+}
 #subhead {
   color: #CC3366;
   font-family: "american-condensed";
