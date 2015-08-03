@@ -51,7 +51,7 @@ nav{
 #index .st-clr{
   text-align: center;
 }
-.menu li a {
+.menu li a, .menu li ul li {
   font-weight:600;
   text-decoration:none;
   padding:11px;
@@ -69,6 +69,10 @@ nav{
   font-size: 18px;
 }
 .st-clr:hover{
+  color:#006699;
+  background:#FFFFA8;
+}
+.menu li ul a:hover {
   color:#006699;
   background:#FFFFA8;
 }
@@ -104,7 +108,7 @@ nav{
   font-family: "american-regular";
 }
 .bigger{
-  margin-top: 13% !important;
+  /*margin-top: 13% !important;*/
 }
 .texto{
   font-family: 'american';
