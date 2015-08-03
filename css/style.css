@@ -14,6 +14,9 @@ body{
   background: url("images/Fondo.png") no-repeat top;
   font-size: 0px;
 }
+.logo{
+  padding-top: 7px;
+}
 #cero, #uno, #dos, #tres, #cuatro, #cinco{
   margin-top: 3%
 }
@@ -28,7 +31,7 @@ body{
 #head{
   color: #CC3366;
   font-family: "american-condensed";
-  font-size: 70px;
+  font-size: 60px;
 }
 nav{
   padding: 0;
@@ -44,7 +47,9 @@ nav{
   z-index:100;
 }
 .txt-men{
-  width: 20%;
+}
+#index .st-clr{
+  text-align: center;
 }
 .menu li a {
   font-weight:600;
@@ -65,11 +70,11 @@ nav{
 }
 .st-clr:hover{
   color:#006699;
-  background:#9CA3DA;
+  background:#FFFFA8;
 }
 .slct-opt{
   color:#006699;
-  background:#9CA3DA;
+  background: #FFFFA8;
   border-bottom: 4px solid #CC3366;
 }
 .menu ul {
@@ -104,7 +109,7 @@ nav{
 .texto{
   font-family: 'american';
   color: #006699;
-  font-size: 24px;
+  font-size: 23px;
 }
 #sec-int{
   margin-top: 14%;
@@ -121,9 +126,9 @@ u{
 }
 .recuadros{
   color: #CC3366;
-  font-size: 16px;
-  margin-top: 7%;
-  margin-bottom: 25%;
+  font-size: 17px;
+  margin-top: 5%;
+  margin-bottom: 20%;
 }
 .recuadros img, .recuadros p{
   position: absolute;
@@ -140,9 +145,20 @@ u{
   border-radius: 30px;
   border-color: #CC3366;
   color: #CC3366;
-  font-size: 16px;
+  font-size: 17px;
   border: 2px solid;
   margin-top: 3%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+@media (max-width: 900px){
+  #index .st-clr{
+    font-size: 15px;
+  }
+  .txt-men{
+    width: 50%;
+    margin-left: 20%;
+  }
 }
 @media (max-width:768px) {
   body{
