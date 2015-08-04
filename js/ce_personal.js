@@ -1,9 +1,10 @@
 $(document).ready(function(){
   $('.contenido').hide();
-  $('#index').show();
+  var opt = document.URL.split('?')[1].split('=')[1];
+  $('#'+opt).show();
+  $('.m-'+opt).addClass('slct-opt');
   $('.st-clr').on('click', function(evt){
     $('.st-clr').removeClass('slct-opt');
-    $('#linea-grande').css('visibility','hidden');
     $(this).addClass('slct-opt');
     evt.preventDefault();
     $('.contenido').hide();
