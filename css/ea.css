@@ -10,19 +10,29 @@
   width: 20%;
   text-align: center;
 }
+
+.st-clr3{
+ width: 30%;
+   right: -18%;
+}
 #index{
   margin-top: 4%;
   display: block;
 }
 #index p{
-  margin-top: 4%;
+  margin-top: 6%;
 }
 #uno, #dos, #tres, #cuatro, #cinco{
   margin-top: 3%
 }
 .st-clr2{
   width: 49%;
+
   
+}
+#inicio2{
+  margin-left: 1%;
+      margin-top: 4%;
 }
 .boton_red{
     background-color: #CC3366;
@@ -40,7 +50,7 @@
 }
 #white_le{
   color: white;
-  font-size: 72%;
+  font-size: 91%;
 
 
 }
@@ -131,7 +141,9 @@ table td, table th {
   color: white;
 }
 #fuentes {
-    margin-left: 73%;
+      margin-left: 110%;
+    margin-top: 9%;
+    cursor: pointer;
 }
 #modal_fuentes{
   text-align: center;
@@ -140,4 +152,25 @@ table td, table th {
       top: 68px;
 
 }
+
+@media (max-width: 1264px){
+  #head{
+    font-size: 47px;
+  }
+  }
+
+
+
+@media (max-width: 1000px){
+  #head{
+    font-size: 40px;
+  }
+  }
+
+@media (max-width: 870px){
+  #head{
+    font-size: 35px;
+  }
+  }
+
 

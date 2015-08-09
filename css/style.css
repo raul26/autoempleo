@@ -123,6 +123,7 @@ nav{
 }
 #inicio{
   margin-left: 1%;
+      margin-top: -2%;
 }
 u{
   text-decoration: none;
@@ -154,6 +155,14 @@ u{
   margin-top: 3%;
   padding-bottom: 1%;
   padding-top: 2%;
+}
+#cerrar{
+  font-size: 34px;
+}
+.izqClose{
+  margin-left: -26%;
+    width: 9%;
+    margin-top: -2%;
 }
 @media (max-width: 900px){
   #index .st-clr{

@@ -46,6 +46,9 @@
 .mod-cont{
   background-color: #cc4a5f;
 }
+.pa_bajo{
+      margin-top: 4%;
+}
 @media (max-width: 1100px){
   #linea-grande{
     margin-left: 38%;

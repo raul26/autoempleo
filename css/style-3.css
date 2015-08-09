@@ -19,6 +19,12 @@
 #cero, #uno, #dos, #tres, #cuatro, #cinco{
   margin-top: 3%
 }
+.pa_bajo{
+      margin-top: 4%;
+}
+#pa_iz{
+  margin-left: -3%;
+}
 #cero{
   margin-right: 16%;
 }
